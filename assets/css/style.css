@@ -535,10 +535,11 @@ h2 {
     padding: 10 20px;
 }
 
+/* section for cupcakes and others prices*/
 #others {
     width: 100%;
-    height: 700px;
-    background-color: rgb(87, 52, 52);
+    height: 500px;
+    background-color: rgb(234, 233, 233);
     padding-top: 10%;
     position: relative;
 }
@@ -546,7 +547,6 @@ h2 {
 #outercontainer {
     width: 90%;
     height: 80%;
-    background-color: green;
     position: absolute;
     top: 10%;
     left: 5%;
@@ -558,8 +558,8 @@ h2 {
 .picture {
     width: 20%;
     height: 80%;
-    background-color: black;
-    border: 12px solid white;
+    border: 35px solid rgb(234, 233, 233);
+    border-bottom: 0;
     box-sizing: border-box;
 }
 
@@ -575,7 +575,7 @@ h2 {
 #cakepops {
     width: 100%;
     height: 100%;
-    background-image: url(../images/cake-pops.jpg);
+    background-image: url(../images/cakepops.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -593,7 +593,7 @@ h2 {
 #pastries {
     width: 100%;
     height: 100%;
-    background-image: url(../images/pastries.jpeg);
+    background-image: url(../images/pastries1.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -606,4 +606,68 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.picture h3,
+p {
+    text-align: center;
+}
+
+/*flavour container*/
+#flavour {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(245, 241, 241);
+}
+
+#flavour h2,
+li {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#flavour h4 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#flavour li {
+    font-size: 20px;
+}
+
+/*orderplacing*/
+#placingorder {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(234, 233, 233);
+    position: relative;
+}
+
+#placingorder h1 {
+    padding-top: 5%;
+    padding-bottom: 0;
+    text-align: center;
+
+}
+
+#ordercontainer {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order {
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 1%;
+}
+
+.order h3 {
+    padding-top: 10px;
 }
