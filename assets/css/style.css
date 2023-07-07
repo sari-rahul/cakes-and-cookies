@@ -61,6 +61,7 @@ h2 {
 #menu li {
     list-style-type: none;
     margin-right: 40px;
+    padding-top: 0;
 }
 
 #menu li:hover {
@@ -400,7 +401,7 @@ h2 {
 }
 
 /*footer*/
-#footer {
+footer {
     width: 100%;
     height: 80px;
     display: flex;
@@ -670,4 +671,16 @@ li {
 
 .order h3 {
     padding-top: 10px;
+}
+
+/*gallery*/
+#gallery {
+    clear: both;
+    line-height: none;
+    column-count: 4;
+    column-gap: none;
+}
+
+#gallery>img {
+    width: 100%;
 }
