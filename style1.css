@@ -1,0 +1,131 @@
+/*what we offer section*/
+#types-of-cakes {
+    height: 750px;
+}
+
+/*first section from left*/
+#description {
+    width: 100%;
+    height: 33%;
+}
+
+#whatweoffer {
+    width: 100%;
+    height: 30%;
+    top: 3%;
+    left: 10%;
+
+}
+
+#whatweoffer h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#whatweoffer p {
+    line-height: 30px;
+}
+
+#baptism-cake {
+    width: 100%;
+    height: 70%;
+    padding-top: 5px;
+
+    bottom: 3%;
+    left: 10%;
+
+}
+
+#bapcake-name {
+
+    font-size: 75%;
+
+    bottom: 1%;
+    left: 15%;
+}
+
+/*center section*/
+#center-section {
+    width: 100%;
+    height: 33%;
+    position: relative;
+}
+
+#wedding-cake {
+    width: 80%;
+    height: 45%;
+
+    top: 3%;
+    left: 5%;
+
+}
+
+#wedding-name {
+    text-align: center;
+    color: rgb(71, 69, 69);
+    font-size: 75%;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+}
+
+#candy-table {
+    width: 80%;
+    height: 35%;
+    background-image: url(../images/candy-table.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: absolute;
+    bottom: 4%;
+    left: 15%;
+
+}
+
+#candy-table-name {
+
+    font-size: 75%;
+
+
+}
+
+/*right section*/
+#right-section {
+    width: 100%;
+    height: 33%;
+
+}
+
+#birthday-cake {
+
+    top: 3%;
+    left: 5%;
+
+}
+
+#birthday-cake-name {
+
+    font-size: 75%;
+    bottom: 28%;
+    left: 15%;
+
+}
+
+#desserts {
+    width: 80%;
+    height: 50%;
+
+    bottom: 3%;
+    left: 5%;
+
+}
+
+#dessert-name {
+    text-align: center;
+    color: rgb(71, 69, 69);
+    font-size: 75%;
+    position: absolute;
+    bottom: 1%;
+    left: 15%;
+}
