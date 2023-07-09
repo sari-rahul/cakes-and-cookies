@@ -80,6 +80,7 @@ h2 {
     width: 100%;
     height: 100%;
     display: inline;
+    box-sizing: border-box;
 }
 
 .cover-image {
@@ -164,7 +165,6 @@ h2 {
     position: absolute;
     top: 10%;
     left: 10%;
-
     text-align: center;
 }
 
@@ -696,7 +696,7 @@ li {
 /*contact page*/
 #contact {
     width: 100%;
-    height: 700px;
+    height: 1000px;
     background-color: rgb(234, 233, 233);
     display: flex;
     justify-content: space-between;
@@ -787,34 +787,34 @@ li {
 
     #menu li {
         margin-right: 20px;
-        padding-top: 10px;
         padding-bottom: 10px;
     }
 
     #menu li:hover {
-        font-size: 80%;
+        font-size: 130%;
+        text-decoration-line: underline;
         color: brown;
     }
 
     #banner-container {
         width: 100%;
-        height: 200px;
+        height: 500px;
         overflow: hidden;
     }
 
     #cover-image1 {
-        width: 0;
-        height: 0;
+        width: 0%;
+        height: 0%;
     }
 
     #cover-image2 {
-        width: 0;
-        height: 0;
+        width: 0%;
+        height: 0%;
     }
 
     #cover-image3 {
-        width: 0;
-        height: 0;
+        width: 0%;
+        height: 0%;
     }
 
     #cover-image4 {
@@ -828,8 +828,8 @@ li {
     }
 
     #cover-image5 {
-        width: 0;
-        height: 0;
+        width: 0%;
+        height: 0%;
     }
 
     /* welcome section*/
@@ -848,7 +848,7 @@ li {
     /*monthly offer section*/
 
     #offer {
-        height: 700px;
+        height: 1000px;
     }
 
     #left-side {
@@ -862,31 +862,31 @@ li {
     }
 
     #current-offer {
-        height: 80%;
+        height: 100%;
         width: 80%;
         position: absolute;
-        top: 10%;
-        left: 20%;
+        top: 5%;
+        left: 10%;
         text-align: left;
     }
 
     #current-offer h1 {
-        padding-top: 25px;
+        padding-top: 15px;
         font-size: 150%;
 
     }
 
     #current-offer li {
         padding-top: 15px;
-        font-size: 80%;
-        margin-left: 40px;
+        font-size: 100%;
+        margin-left: 2%;
     }
 
     #current-offer p {
         padding-top: 7px;
-        margin-left: 50px;
+        margin-left: 15px;
         text-align: left;
-        font-size: 65%;
+        font-size: 90%;
     }
 
     #foto {
@@ -917,7 +917,7 @@ li {
     #whatweoffer {
         width: 100%;
         height: 30%;
-        top: 5%;
+        top: 15%;
         left: 4%;
     }
 
@@ -933,7 +933,7 @@ li {
 
     #baptism-cake {
         width: 100%;
-        height: 50%;
+        height: 45%;
         background-size: contain;
         bottom: 5%;
         left: 5%;
@@ -1042,45 +1042,1122 @@ li {
 
     /*footer*/
     footer {
+        width:0%;
+        height:0%;
+       
+    }
+
+
+    /*services page pricelist*/
+
+    #pricelist {
+        height: 1500px;
+        margin-top: 30px;
+    }
+
+    #part1 {
         width: 100%;
-        height: 100px;
-        padding: 0;
+        height: 50%;
+        left: 1%;
+        display: block;
+        margin-top: 20%;
+    }
+
+    #part2 {
+        width: 100%;
+        height: 50%;
+        left: 1%;
+        display: block;
+    }
+
+    .leftside {
+        width: 100%;
+        height: 50%;
         display: flex;
+        justify-content: space-evenly;
     }
 
-    .contactdetails {
-        border-right: none;
-        padding-right: 0px;
+    .rightside {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
     }
 
-    #location {
-        width: 30%;
+    .pricedetails {
+        margin-left: 1%;
+        padding-top: 10px;
+        width: 50%;
+        height: 80%;
+    }
+
+    .pricedetails li {
+        line-height: 25px;
+    }
+
+    .pricedetails h3 {
+        padding-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .foto {
+        width: 40%;
+        height: 50%;
+    }
+
+    /* section for cupcakes and others prices*/
+    #others {
+        width: 100%;
+        height: 1400px;
+        background-color: rgb(197, 196, 196);
+    }
+
+    #outercontainer {
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        display: block;
+
+
+    }
+
+    .picture {
+        width: 100%;
+        height: 23%;
+        border: 35px solid rgb(197, 196, 196);
+    }
+
+    #cupcakes {
+        width: 100%;
         height: 100%;
-        font-size: 80%;
-        padding: 0;
+        background-image: url(../images/cupcake.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
-    #contact {
-        width: 30%;
+    #cakepops {
+        width: 100%;
         height: 100%;
-        font-size: 80%;
-        padding: 0;
+        background-image: url(../images/cakepops.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
-    #subscribe {
+    #macarons {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/macarons.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #pastries {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/pastries1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #cakesicles {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/cakesicles.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .picture h3,
+    p {
+
+        text-align: center;
+    }
+
+    .picture h3 {
+        color: rgb(87, 86, 86);
+        border: 15px solid rgb(197, 196, 196);
+        border-bottom: 0px;
+    }
+
+    .picture p {
         display: none;
     }
 
+    /*orderplacing*/
 
-    .contactdetails h3 {
-        padding-top: 5px;
+    #placingorder {
+        width: 100%;
+        height: 800px;
+        background-color: rgb(234, 233, 233);
+        position: relative;
     }
 
-    .contactdetails p {
-        padding-top: 5px;
+    #placingorder h1 {
+        padding-top: 20%;
+        padding-bottom: 0;
+    }
+
+    #ordercontainer {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        display: block;
+    }
+
+    .order {
+        width: 80%;
+        height: 20%;
+        text-align: center;
+        border: 0;
+        padding: 1%;
+    }
+
+    .order h3 {
+        padding-top: 10px;
+    }
+
+    /*gallery*/
+    #gallery {
+        padding-top: 40px;
+        clear: both;
+        line-height: none;
+        column-count: 2;
+        column-gap: none;
+    }
+
+    #gallery>img {
+        width: 100%;
+    }
+
+    /*contact page*/
+    #contact {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(234, 233, 233);
+        display: block;
+    }
+
+    #leftportion {
+        width: 100%;
+        height: 50%;
         text-align: left;
+        margin-left: 1%;
+        margin-top: 10%;
+
+    }
+
+    #leftportion h1 {
+        padding-top: 5%;
+        padding-left: 1%;
+    }
+
+    #leftportion p {
+        text-align: left;
+        padding-top: 2%;
+        padding-left: 1%;
+    }
+
+    #leftportion label {
+        padding-top: 30px;
+    }
+
+    #leftportion input {
+        width: 50%;
+        height: 20px;
+        border: 1px solid grey;
+    }
+
+    #leftportion textarea {
+        border: 1px solid rgb(51, 49, 49);
+        width: 80%;
+
+    }
+
+    #leftportion button {
+        background-color: black;
+        width: 50%;
+        height: 30px;
+        color: rgb(141, 137, 137);
         font-size: 80%;
+    }
+
+    #rightportion {
+        display: none;
+    }
+
+    #address {
+        width: 100%;
+        height: 300px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #address h1 {
+        padding-bottom: 20px;
+
+    }
+
+    #address p {
+        padding: 20px;
     }
 }
 
-*/
+@media screen and (min-width:640px) {
+
+    /*heading style*/
+    header {
+        height: 80px;
+        padding-bottom: 1%;
+    }
+
+    h1,
+    h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+
+    /*logo style*/
+    #logo {
+        font-size: 180%;
+        padding-top: 20px;
+    }
+
+    /*menu styles*/
+    #menu {
+
+        letter-spacing: 4px;
+    }
+
+    #menu,
+    #logo {
+        line-height: 40px;
+
+    }
+
+    #menu a {
+        font-size: 120%;
+    }
+
+    #menu li {
+        margin-right: 40px;
+        padding-top: 0px;
+    }
+
+    #menu li:hover {
+        font-size: 120%;
+        color: brown;
+    }
+
+    #banner-container {
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    #banner-image {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .cover-image {
+
+        border: 5px solid white;
+        box-sizing: border-box;
+    }
+
+    #cover-image1 {
+        width: 0%;
+        height: 0%;
+    }
+
+    #cover-image2 {
+        width: 33%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake3.png);
+    }
+
+    #cover-image3 {
+        width: 33%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake4.jpg);
+    }
+
+    #cover-image4 {
+        width: 33%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake5.jpeg);
+    }
+
+    #cover-image5 {
+        width: 0%;
+        height: 0%;
+
+    }
+
+    /* welcome section*/
+    #welcome {
+        width: 100%;
+        height: 250px;
+
+    }
+
+    #welcome-quote {
+        font-size: 130%;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    /*monthly offer section*/
+
+    #offer {
+        height: 800px;
+    }
+
+    #left-side {
+        width: 100%;
+        height: 50%;
+    }
+
+    #right-side {
+        width: 100%;
+        height: 50%;
+    }
+
+    #current-offer {
+        height: 80%;
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        text-align: left;
+    }
+
+    #current-offer h1 {
+        padding-top: 15px;
+        font-size: 150%;
+
+    }
+
+    #current-offer li {
+        padding-top: 15px;
+        font-size: 100%;
+        margin-left: 2%;
+    }
+
+    #current-offer p {
+        padding-top: 7px;
+        margin-left: 15 px;
+        text-align: left;
+        font-size: 90%;
+    }
+
+    #foto {
+        height: 300px;
+        width: 90%;
+        background-image: url(../images/offer-cake.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: 53%;
+        left: 5%;
+    }
+
+    /*what we offer section*/
+
+    #types-of-cakes {
+        height: 2500px;
+        display: block;
+    }
+
+    /*first section from left*/
+    #description {
+        width: 90%;
+        height: 33%;
+    }
+
+    #whatweoffer {
+        width: 100%;
+        height: 30%;
+        top: 15%;
+        left: 4%;
+    }
+
+    #whatweoffer h2 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #whatweoffer p {
+        line-height: 30px;
+        text-align: left;
+    }
+
+    #baptism-cake {
+        width: 100%;
+        height: 45%;
+        background-size: contain;
+        bottom: 5%;
+        left: 5%;
+    }
+
+    #bapcake-name {
+        font-size: 120%;
+        bottom: 0%;
+        left: 35%;
+    }
+
+    /*center section*/
+    #center-section {
+        width: 100%;
+        height: 33%;
+    }
+
+    #wedding-cake {
+        width: 100%;
+        height: 40%;
+        background-size: contain;
+        top: 10%;
+        left: 3%;
+
+    }
+
+    #wedding-name {
+        font-size: 120%;
+        top: 52%;
+        left: 40%;
+    }
+
+    #candy-table {
+        width: 100%;
+        height: 40%;
+        bottom: 5%;
+        left: 0%;
+        background-size: contain;
+
+    }
+
+    #candy-table-name {
+        font-size: 120%;
+        bottom: 2%;
+        left: 40%;
+    }
+
+    /*right section*/
+    #right-section {
+        width: 100%;
+        height: 33%;
+    }
+
+    #birthday-cake {
+        width: 100%;
+        height: 40%;
+        top: 3%;
+        left: 2%;
+        background-size: contain;
+    }
+
+    #birthday-cake-name {
+
+        font-size: 120%;
+        top: 45%;
+        left: 40%;
+    }
+
+    #desserts {
+        width: 80%;
+        height: 40%;
+        bottom: 5%;
+        left: 10%;
+    }
+
+    #dessert-name {
+        font-size: 120%;
+        bottom: 0%;
+        left: 35%;
+    }
+
+    /*review section*/
+    #review {
+        height: 1000px;
+        display: block;
+    }
+
+    #review>h1 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    .rev {
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        padding: 10px 0 0 0;
+        margin-left: 0;
+        font-size: 100%;
+    }
+
+    .rev h1 {
+        font-size: 400%;
+    }
+
+    /*footer*/
+    footer {
+        width:0%;
+        height:0%;
+    }
+
+
+    /*services page pricelist*/
+
+    #pricelist {
+        height: 1500px;
+        margin-top: 30px;
+    }
+
+    #part1 {
+        width: 100%;
+        height: 50%;
+        left: 1%;
+        display: block;
+        margin-top: 20%;
+    }
+
+    #part2 {
+        width: 100%;
+        height: 50%;
+        left: 1%;
+        display: block;
+    }
+
+    .leftside {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .rightside {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .pricedetails {
+        margin-left: 1%;
+        padding-top: 10px;
+        width: 50%;
+        height: 80%;
+    }
+
+    .pricedetails li {
+        line-height: 25px;
+    }
+
+    .pricedetails h3 {
+        padding-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .foto {
+        width: 40%;
+        height: 50%;
+    }
+
+    /* section for cupcakes and others prices*/
+    #others {
+        width: 100%;
+        height: 1400px;
+        background-color: rgb(197, 196, 196);
+    }
+
+    #outercontainer {
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        display: block;
+
+
+    }
+
+    .picture {
+        width: 100%;
+        height: 23%;
+        border: 35px solid rgb(197, 196, 196);
+    }
+
+    #cupcakes {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/cupcake.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #cakepops {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/cakepops.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #macarons {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/macarons.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #pastries {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/pastries1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #cakesicles {
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/cakesicles.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .picture h3,
+    p {
+
+        text-align: center;
+    }
+
+    .picture h3 {
+        color: rgb(87, 86, 86);
+        border: 15px solid rgb(197, 196, 196);
+        border-bottom: 0px;
+    }
+
+    .picture p {
+        display: none;
+    }
+
+    /*orderplacing*/
+
+    #placingorder {
+        width: 100%;
+        height: 800px;
+        background-color: rgb(234, 233, 233);
+        position: relative;
+    }
+
+    #placingorder h1 {
+        padding-top: 15%;
+        padding-bottom: 0;
+    }
+
+    #ordercontainer {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        display: block;
+    }
+
+    .order {
+        width: 80%;
+        height: 20%;
+        text-align: center;
+        border: 0;
+        padding: 1%;
+    }
+
+    .order h3 {
+        padding-top: 10px;
+    }
+
+    /*gallery*/
+    #gallery {
+        padding-top: 40px;
+        clear: both;
+        line-height: none;
+        column-count: 2;
+        column-gap: none;
+    }
+
+    #gallery>img {
+        width: 100%;
+    }
+
+    /*contact page*/
+    #contact {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(234, 233, 233);
+        display: block;
+    }
+
+    #leftportion {
+        width: 100%;
+        height: 50%;
+        text-align: left;
+        margin-left: 1%;
+        margin-top: 10%;
+
+    }
+
+    #leftportion h1 {
+        padding-top: 5%;
+        padding-left: 1%;
+    }
+
+    #leftportion p {
+        text-align: left;
+        padding-top: 2%;
+        padding-left: 1%;
+    }
+
+    #leftportion label {
+        padding-top: 30px;
+    }
+
+    #leftportion input {
+        width: 50%;
+        height: 20px;
+        border: 1px solid grey;
+    }
+
+    #leftportion textarea {
+        border: 1px solid rgb(51, 49, 49);
+        width: 80%;
+
+    }
+
+    #leftportion button {
+        background-color: black;
+        width: 50%;
+        height: 30px;
+        color: rgb(141, 137, 137);
+        font-size: 80%;
+    }
+
+    #rightportion {
+        display: none;
+    }
+
+    #address {
+        width: 100%;
+        height: 300px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #address h1 {
+        padding-bottom: 20px;
+
+    }
+
+    #address p {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    
+    #banner-image {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .cover-image {
+
+        border: 3px solid white;
+        box-sizing: border-box;
+    }
+
+    #cover-image1 {
+        width: 20%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake2.jpg);
+    }
+
+    #cover-image2 {
+        width: 20%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake3.png);
+    }
+
+    #cover-image3 {
+        width: 20%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake4.jpg);
+    }
+
+    #cover-image4 {
+        width: 20%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake5.jpeg);
+    }
+
+    #cover-image5 {
+        width:20%;
+        height: 100%;
+        background-image: url(../images/cover-page-cake6.jpg);
+
+    }
+    
+ /*monthly offer section*/
+
+    #offer {
+        height: 800px;
+        display:flex;
+        justify-content:space-around;
+    }
+
+    #left-side {
+        width: 50%;
+        height: 100%;
+    }
+
+    #right-side {
+        width: 50%;
+        height: 100%;
+    }
+
+    #current-offer {
+        height: 80%;
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        text-align: center;
+    }
+
+    #current-offer h1 {
+        padding-top: 50px;
+        font-size: 250%;
+
+    }
+
+    #current-offer li {
+        padding-top: 30px;
+        font-size: 160%;
+        margin-left: 160px;
+    }
+
+    #current-offer p {
+        padding-top: 15px;
+        margin-left: 200px;
+        text-align: left;
+        font-size: 130%;
+    }
+
+    #foto {
+        height: 600px;
+        width: 500px;
+        background-image: url(../images/offer-cake.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: 10%;
+        left: 25%;
+    }
+    
+
+/*what we offer section*/
+
+    #types-of-cakes {
+
+        height: 1000px;
+        display: flex;
+    }
+    /*first section from left*/
+    #description {
+        width: 33%;
+        height: 100%;
+    }
+
+    #whatweoffer {
+        width: 75%;
+        height: 40%;
+        top: 5%;
+        left: 20%;
+    }
+
+    #whatweoffer h2 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    #whatweoffer p {
+        line-height: 30px;
+    }
+
+    #baptism-cake {
+        width: 75%;
+        height: 55%;
+        background-size: contain;
+        bottom: 5%;
+        left: 20%;
+    }
+
+    #bapcake-name {
+        font-size: 150%;
+        bottom: 1%;
+        left: 30%;
+    }
+
+    /*center section*/
+    #center-section {
+        width: 33%;
+        height: 100%;
+    }
+
+    #wedding-cake {
+        width: 80%;
+        height: 45%;
+        background-size: contain;
+        top: 5%;
+        left: 10%;
+
+    }
+
+    #wedding-name {
+        font-size: 150%;
+        top: 52%;
+        left: 35%;
+    }
+
+    #candy-table {
+        width: 80%;
+        height: 35%;
+        bottom: 7%;
+        left: 10%;
+        background-size: cover;
+
+    }
+
+    #candy-table-name {
+        font-size: 150%;
+        bottom: 2%;
+        left: 33%;
+    }
+
+    /*right section*/
+    #right-section {
+        width: 33%;
+        height: 100%;
+    }
+
+    #birthday-cake {
+        width: 80%;
+        height: 35%;
+        top: 5%;
+        left: 10%;
+        background-size: cover;
+    }
+
+    #birthday-cake-name {
+
+        font-size: 150%;
+        bottom:56%;
+        left: 33%;
+    }
+
+    #desserts {
+        width: 80%;
+        height: 50%;
+        bottom: 5%;
+        left: 10%;
+    }
+
+    #dessert-name {
+        font-size: 150%;
+        bottom: 1%;
+        left: 33%;
+    }
+    /*review section*/
+    #review {
+        height: 400px;
+        display: flex;
+    }
+
+    #review>h1 {
+        padding-top: 8%;
+        text-align: center;
+    }
+
+    .rev {
+        width: 33%;
+        height: 100%;
+        text-align: center;
+        padding: 50px;
+        margin-left: 50px;
+        font-size: 100%;
+    }
+
+    .rev h1 {
+        font-size: 500%;
+    }
+    
+    /*footer*/
+    footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(71, 69, 69);
+    padding: 30px;
+    background-color: rgb(230, 224, 224);
+
+    }
+
+    .contactdetails {
+     width:33%;
+    border-right: 1px solid black;
+    padding-right: 30px;
+
+    }
+
+    .contactdetails h3 {
+    padding-bottom: 10px;
+    }
+
+    .contactdetails p {
+    padding-bottom: 10px;
+    text-align: left;
+    }
+
+    .contactdetails input {
+    border: 1px solid black;
+    width: 60%;
+    padding: 2%;
+    margin-top: 1%;
+    }
+
+    .contactdetails button {
+    border: 1px solid black;
+    width: 30%;
+    padding: 2%;
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+    }
+ 
+}
