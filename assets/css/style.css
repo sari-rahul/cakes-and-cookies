@@ -694,6 +694,7 @@ li {
 
 #gallery>img {
     width: 100%;
+    border: 3px solid white;
 }
 
 /*contact page*/
