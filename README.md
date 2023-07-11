@@ -1,39 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CAKES & COOKIES
 
-Welcome,
+Cakes & Cookies is a Baking business located in Halstatt,Austria,concentrating on wedding cakes,themed cakes and much more.This website is aimed at giving more information about their products and services to the public and thereby increasing the number of clients.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+There are Four pages in this website. The main features of this website are as follows:
 
-## Codeanywhere Reminders
+## 1.HOME
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The first page or the landing page with all the necessary information related to the business.
 
-`python3 -m http.server`
+### LOGO AND NAVIGATION BAR
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The website begins with the logo of the firm aligned centrally followed by the navigation bar.The navigation bar has four elements -Home,Services,Gallery and Contact. Each element helps the user to navigate through the pages and get information.The logo brings the user back to the home page while navigating through any other page,when clicked.
+The structure and pattern of the navigation bar and loga remains the same throughout the website pages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### COVER PAGE
 
-`http_server`
+The cover page of this website displays the images of different cakes made by them.The main aim is to showcase their work and attract the clients.The number of images displayed differs according to the screen sizes. In the larger screens five images are displayed while only three images are shown in medium screen sizes which is reduced to one on mobile screen.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### WELCOME SECTION
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+This is a small section welcoming the client to the website and quoting the motto of the business.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### OFFER OF THE MONTH
 
-To log into the Heroku toolbelt CLI:
+This section describes the current offer provided by the bakers. It will be updated once ina month to the current offer. It include the image and details of the cake currently in offer.The portion size,flavour,decorations used and the lead time will be displayed here.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### WHAT WE OFFER?
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Here the entire products and services provided are shown. It includes images and names of the types of the cakes that can be ordered. It aims at imforming the clients about the services offered.
 
----
+### CUSTOMER REVIEWS
 
-Happy coding!
+For any business customer satisfaction is very important.The credibility of any service increases with genuine reviews from the clients. Hence the reviews are given on the front page itself to increase the confidence of new customers.It can be updated and review as the time goes.
+
+### FOOTER
+
+Each page ends with a footer.It includes essential informations like location,contact details and a form to subscribe to their newsletter,so that they remain updated with the current offers. The structure of footer remains the same throughout the website but is displayed only on larger screens.
+
+## 2.SERVICES
+
+This is the second page in this website. It has three main sections.
+
+### PRICE LIST
+
+Here the prices of different cakes as per their sizes and portions are detailed. It also includes the images respectively with the discription. It also has a section which includes price details of other services they provide like cupcakes,cakesicles along with their images.
+
+### FLAVOUR GUIDE
+
+All the flavours currently available are explained here. It informs the user to know about the flavours available along with texture and combination of the taste of cake they are ordering. It also helps create customised cake where the client can choose the flavours from the chart provided.
+
+

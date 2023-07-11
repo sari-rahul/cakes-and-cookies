@@ -10,7 +10,7 @@
 body {
     font-family: frank ruhl libre, sans-serif;
     font-weight: 300;
-    color: grey;
+    color: rgb(53, 52, 52);
 }
 
 /*heading style*/
@@ -631,8 +631,7 @@ p {
     background-color: rgb(245, 241, 241);
 }
 
-#flavour h2,
-li {
+#flavour h2 {
     text-align: center;
     padding-top: 70px;
 }
@@ -644,6 +643,14 @@ li {
 
 #flavour li {
     font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#flavour .flavour-detail {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 /*orderplacing*/
@@ -1211,7 +1218,7 @@ li {
     }
 
     .picture p {
-        display: none;
+        text-align: center;
     }
 
     /*orderplacing*/
@@ -1781,10 +1788,6 @@ li {
         color: rgb(87, 86, 86);
         border: 15px solid rgb(197, 196, 196);
         border-bottom: 0px;
-    }
-
-    .picture p {
-        display: none;
     }
 
     /*orderplacing*/
