@@ -51,4 +51,22 @@ Here the prices of different cakes as per their sizes and portions are detailed.
 
 All the flavours currently available are explained here. It informs the user to know about the flavours available along with texture and combination of the taste of cake they are ordering. It also helps create customised cake where the client can choose the flavours from the chart provided.
 
+### HOW TO ORDER?
 
+Once the customer is informed about the product the question that comes is how to get this product? This question is simply and effectively answered here using a simple chart like explanation and logos.
+
+## 3.GALLERY
+
+This section showcases images of the works done before. It helps new customers refer the images and to get new ideas from them.
+
+## 4.CONTACT
+
+The last and most important page in this website. It has two section.
+
+### FORM
+
+After going through this website pages,if the customer has any questions they can ask their question using the form provided in this section.Equally important is the giving reviews and suggestions for the progress of this business which can also be done through this section. It also has an image to make it look beautiful which is displayed only on larger screens.
+
+### CONTACT
+
+In this section the contact informations like location,phone numbers,email address and social media links are provided.
