@@ -1,44 +1,69 @@
-*footer*/
-footer {
+/*contact page*/
+#contact {
     width: 100%;
-    height: 80px;
+    height: 1000px;
+    background-color: rgb(234, 233, 233);
     display: flex;
-    justify-content: space-evenly;
-    color: rgb(71, 69, 69);
-    padding: 30px;
-    background-color: rgb(230, 224, 224);
-
 }
 
-.contactdetails {
-    width:33%;
-    border-right: 1px solid black;
-    padding-right: 30px;
-    margin-left:30px;
-
-}
-
-.contactdetails h3 {
-    padding-bottom: 10px;
-}
-
-.contactdetails p {
-    padding-bottom: 10px;
+#leftportion {
+    width: 40%;
+    height: 90%;
     text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+
 }
 
-.contactdetails input {
-    border: 1px solid black;
-    width: 60%;
-    padding: 2%;
-    margin-top: 1%;
+#leftportion p {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 1%;
 }
 
-.contactdetails button {
-    border: 1px solid black;
-    width: 30%;
-    padding: 2%;
-    margin-top: 1%;
+#leftportion label {
+    padding-top: 30px;
+}
+
+#leftportion input {
+    width: 50%;
+    height: 40px;
+    border: 1px solid grey;
+}
+
+#leftportion textarea {
+    border: 1px solid rgb(51, 49, 49);
+}
+
+#leftportion button {
     background-color: black;
-    color: white;
+    width: 50%;
+    height: 60px;
+    color: rgb(141, 137, 137);
+    font-size: 20px;
+}
+
+#rightportion {
+    width: 60%;
+    height: 100%;
+    background-image: url(/assets/images/gallery7.webp);
+    background-position: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#address {
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#address h1 {
+    padding-bottom: 20px;
+
+}
+
+#address p {
+    padding: 20px;
 }
