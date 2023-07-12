@@ -396,7 +396,7 @@ h2 {
     padding: 50px;
     margin-left: 50px;
     color: rgb(71, 69, 69);
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .rev h2 {
@@ -418,6 +418,7 @@ footer {
 .contactdetails {
     border-right: 1px solid black;
     padding-right: 30px;
+    padding-left: 30px;
 
 }
 
@@ -864,18 +865,39 @@ p {
         background-color: white;
     }
 
-    footer .contactdetails {
-        border: white;
+    /*footer*/
+    footer {
+        width: 0px;
+        height: 0px;
+        padding: 0px;
     }
 
-    .contactdetails button {
-        background-color: white;
-        color: white;
-        border: white;
+    .contactdetails {
+        border-right: 0px;
+        padding-right: 0px;
+
+    }
+
+    .contactdetails h3 {
+        padding-bottom: 0px;
+    }
+
+    .contactdetails p {
+        padding-bottom: 0px;
     }
 
     .contactdetails input {
-        color: white;
+        border: 0px;
+        width: 0px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .contactdetails button {
+        border: 0px;
+        width: 0px;
+        padding: 0px;
+        margin-top: 0px;
     }
 
     /*monthly offer section*/
@@ -962,6 +984,7 @@ p {
     #whatweoffer p {
         line-height: 30px;
         text-align: left;
+        padding-right: 20px;
     }
 
     #baptism-cake {
@@ -1050,7 +1073,7 @@ p {
 
     /*review section*/
     #review {
-        height: 900px;
+        height: 1000px;
         display: block;
     }
 
@@ -1065,7 +1088,8 @@ p {
         height: 30%;
         text-align: center;
         padding: 10px 0 0 0;
-        margin-left: 0;
+        margin-left: 10px;
+        margin-right: 10px;
         font-size: 100%;
     }
 
@@ -1075,9 +1099,14 @@ p {
 
     /*footer*/
     footer {
-        width: 0%;
-        height: 0%;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+    }
 
+    .contactdetails input {
+        width: 0px;
+        height: 0px;
     }
 
 
@@ -2168,6 +2197,7 @@ p {
         width: 33%;
         border-right: 1px solid black;
         padding-right: 30px;
+        padding-left: 30px;
 
     }
 
