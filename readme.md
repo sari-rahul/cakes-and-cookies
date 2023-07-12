@@ -33,11 +33,11 @@ Here the entire products and services provided are shown. It includes images and
 
 ### CUSTOMER REVIEWS
 
-For any business customer satisfaction is very important.The credibility of any service increases with genuine reviews from the clients. Hence the reviews are given on the front page itself to increase the confidence of new customers.It can be updated and review as the time goes.
+For any business customer satisfaction is very important.The credibility of any service increases with genuine reviews from the clients. Hence the reviews are given on the front page itself to increase the confidence of new customers. It can be updated and review as the time goes.
 
 ### FOOTER
 
-Each page ends with a footer.It includes essential informations like location,contact details and a form to subscribe to their newsletter,so that they remain updated with the current offers. The structure of footer remains the same throughout the website but is displayed only on larger screens.
+Each page ends with a footer. It includes essential informations like location,contact details and a form to subscribe to their newsletter,so that they remain updated with the current offers. The structure of footer remains the same throughout the website but is displayed only on larger screens.
 
 ## 2.SERVICES
 
@@ -70,3 +70,19 @@ After going through this website pages,if the customer has any questions they ca
 ### CONTACT
 
 In this section the contact informations like location,phone numbers,email address and social media links are provided.
+
+## Testing
+
+This project has been tested throughly using the dev tools during the development process and has behaved accordingly in all required screen sizes. After completion it has benn tested in lighthouse and has a good score for accessebilty, performance,SEO and Best practices.
+This project begins with images of cakes which changes as per the screen sizes. In larger screens five images will be displayed while three and one image will be diasplayed on medium and smaller screnns respectively.
+Another feature in this website is the footer which appears only om the larger screens. It should not appear on the smaller and medium screens but it has not been solved completely because of my restricted knowledge in the this area.
+
+## Validator Testing
+
+### HTML
+
+No errors have been found while passing through official [W3C Validator](https://validator.w3.org/nu/#textarea).
+
+### CSS
+
+No errors have been found while pasing through official [Jigsaw validator.](https://jigsaw.w3.org/css-validator/validator#css)
