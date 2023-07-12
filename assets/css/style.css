@@ -2213,6 +2213,7 @@ p {
     .contactdetails input {
         border: 1px solid black;
         width: 60%;
+        height: 20px;
         padding: 2%;
         margin-top: 1%;
     }
@@ -2220,6 +2221,7 @@ p {
     .contactdetails button {
         border: 1px solid black;
         width: 30%;
+        height: 40px;
         padding: 2%;
         margin-top: 1%;
         background-color: black;
