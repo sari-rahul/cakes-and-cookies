@@ -4,6 +4,8 @@ Cakes & Cookies is a Baking business located in Halstatt,Austria,concentrating o
 
 ## Features
 
+---
+
 There are Four pages in this website. The main features of this website are as follows:
 
 ## 1.HOME
@@ -73,16 +75,52 @@ In this section the contact informations like location,phone numbers,email addre
 
 ## Testing
 
+---
+
 This project has been tested throughly using the dev tools during the development process and has behaved accordingly in all required screen sizes. After completion it has benn tested in lighthouse and has a good score for accessebilty, performance,SEO and Best practices.
-This project begins with images of cakes which changes as per the screen sizes. In larger screens five images will be displayed while three and one image will be diasplayed on medium and smaller screnns respectively.
+This project begins with images of cakes which changes as per the screen sizes. In larger screens five images will be displayed while three and one image will be diasplayed on medium and smaller screens respectively.
 Another feature in this website is the footer which appears only om the larger screens. It should not appear on the smaller and medium screens but it has not been solved completely because of my restricted knowledge in the this area.
 
 ## Validator Testing
 
+---
+
 ### HTML
 
-No errors have been found while passing through official [W3C Validator](https://validator.w3.org/nu/#textarea).
+No errors have been found while passing through official [W3C Validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fsari-rahul.github.io%2Fcakes-and-cookies%2F).
 
 ### CSS
 
-No errors have been found while pasing through official [Jigsaw validator.](https://jigsaw.w3.org/css-validator/validator#css)
+No errors have been found while pasing through official [Jigsaw validator.](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsari-rahul.github.io%2Fcakes-and-cookies%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Deployment
+
+---
+
+This project was deployed first on 12th of july 2023 in the Github platform.
+The steps of deployment are as follows:
+
+- In the github ,select the repository.
+- Go to the settings ,select Pages from the left side.
+- In pages ,change the Branch into main and Save it.
+- Wait for few minutes and the link to the repository will be loaded above.
+
+The live link can be found [here.](https://sari-rahul.github.io/cakes-and-cookies/)
+
+## Credits
+
+---
+
+The credits of this projects are:
+
+### CONTENT
+
+- The content and concept of this project was refferd from the Cake styling and Cakes Berlin websites.They are bakers based in Stuttgart and Berlin respectively.
+
+- The instructions for implementation was taken from the [Debug Media](https://www.youtube.com/watch?v=uhWvXeCEbHw) youtube channel.
+
+- The icons were used from [Font Awesome.](https://fontawesome.com/v5/download)
+
+### MEDIA
+
+- The images used inthis project are from [Pexels](https://www.pexels.com/de-de/),[Cakes Berlin](https://cakesberlin.com/) and [Cake Styling](https://www.cakestyling.de/).

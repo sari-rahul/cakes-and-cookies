@@ -835,7 +835,7 @@ p {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        border: 10px solid white;
+        border: 5px solid white;
         background-image: url(../images/candy-table.jpg);
     }
 
@@ -1948,8 +1948,6 @@ p {
     }
 
     .cover-image {
-
-        border: 3px solid white;
         box-sizing: border-box;
     }
 
