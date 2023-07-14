@@ -1091,7 +1091,7 @@ p {
 
     .rev {
         width: 90%;
-        height: 30%;
+        height: 25%;
         text-align: center;
         padding: 10px 0 0 0;
         margin-left: 10px;
@@ -1101,6 +1101,11 @@ p {
 
     .rev h1 {
         font-size: 380%;
+    }
+
+    .rev h2 {
+
+        font-size: 450%;
     }
 
     /*footer*/

@@ -26,72 +26,146 @@ There are Four pages in this website. The main features of this website are as f
 
 The first page or the landing page with all the necessary information related to the business.
 
-### LOGO AND NAVIGATION BAR
+### i) LOGO AND NAVIGATION BAR
 
 The website begins with the logo of the firm aligned centrally followed by the navigation bar.The navigation bar has four elements -Home,Services,Gallery and Contact. Each element helps the user to navigate through the pages and get information.The logo brings the user back to the home page while navigating through any other page,when clicked.
 The structure and pattern of the navigation bar and loga remains the same throughout the website pages.
 
-### COVER PAGE
+![logo and navigation bar](assets/images/logoandnavigationscreenshot.png)
+
+### ii) COVER PAGE
 
 The cover page of this website displays the images of different cakes made by them.The main aim is to showcase their work and attract the clients.The number of images displayed differs according to the screen sizes. In the larger screens five images are displayed while only three images are shown in medium screen sizes which is reduced to one on mobile screen.
 
-### WELCOME SECTION
+![coverpage with 5 images on larger screen](assets/images/homepagescreenshot.png)
+
+![coverpage with 3 images on medium screen](assets/images/coverpagemediumscreen.png)
+![coverpage with 1 image on smaller screens](assets/images/coverpagesmallscreen.png)
+
+### iii) WELCOME SECTION
 
 This is a small section welcoming the client to the website and quoting the motto of the business.
+![welcome section](assets/images/welcomescreenshot.png)
 
-### OFFER OF THE MONTH
+### iv) OFFER OF THE MONTH
 
 This section describes the current offer provided by the bakers. It will be updated once ina month to the current offer. It include the image and details of the cake currently in offer.The portion size,flavour,decorations used and the lead time will be displayed here.
 
-### WHAT WE OFFER?
+![offer of the month with image if cake and details on the side](assets/images/offerofthemonthscreenshot.png)
+
+This section is displayed in one above th eothe pattern in smaller screens as shown below:
+
+![The offer of the month section with the image section above the details section](assets/images/offerofthemonthsmallscreen.png)
+
+### v) WHAT WE OFFER?
 
 Here the entire products and services provided are shown. It includes images and names of the types of the cakes that can be ordered. It aims at imforming the clients about the services offered.
 
-### CUSTOMER REVIEWS
+![Different things offered by these bakers like birthday cake ,cake for communion etc are shown](assets/images/offersectionscreenshot.png)
+
+This same section is shown in different pattern in smaller screens. Each section is arranged one above the other to accomodate inthe smaller width.
+
+![offer section showing cakes for differnt events](assets/images/whatweoffersmallscreen.png)
+
+### vi) CUSTOMER REVIEWS
 
 For any business customer satisfaction is very important.The credibility of any service increases with genuine reviews from the clients. Hence the reviews are given on the front page itself to increase the confidence of new customers. It can be updated and review as the time goes.
 
-### FOOTER
+- It is displayed in aline in larger screen as shown below.
+
+![reviews](assets/images/reviewscreenshot.png)
+
+- While in smaller screens it is shown in single column.
+
+![review section arranged in single column](assets/images/reviewsmallscreen.png)
+
+### vii) FOOTER
 
 Each page ends with a footer. It includes essential informations like location,contact details and a form to subscribe to their newsletter,so that they remain updated with the current offers. The structure of footer remains the same throughout the website but is displayed only on larger screens.
+
+![footer](assets/images/footerscreenshot.png)
 
 ## 2.SERVICES
 
 This is the second page in this website. It has three main sections.
 
-### PRICE LIST
+### i) PRICE LIST
 
 Here the prices of different cakes as per their sizes and portions are detailed. It also includes the images respectively with the discription. It also has a section which includes price details of other services they provide like cupcakes,cakesicles along with their images.
 
-### FLAVOUR GUIDE
+- Pricelist on large screen is seen as below with two column in each row:
+  ![Pricelist showing different types of cakes with their sizes and pattern with two colum in each row](assets/images/servicesscreenshot1.png)
+- second part of pricelist is displayed in single line with the cost and number displayed below each object:
+  ![Pricelist showing other things offered by the bakers with their numbers in a line.](assets/images/servicesscreenshot2.png)
+
+  - In smaller screen the pricelist is shown as single column in each row one below the other.
+
+    ![pricelist in smaller screens with only one column](assets/images/servicessectionsmallscreen.png).
+
+  - Smaller screen shows the pricelist of other things one below the other as shown:
+
+    ![pricelist of other things one below the other](assets/images/servicespart2smallscreen.png)
+
+### ii) FLAVOUR GUIDE
 
 All the flavours currently available are explained here. It informs the user to know about the flavours available along with texture and combination of the taste of cake they are ordering. It also helps create customised cake where the client can choose the flavours from the chart provided.
 
-### HOW TO ORDER?
+![flavour guide](assets/images/flavourguidescreenshot.png)
+
+### iii) HOW TO ORDER?
 
 Once the customer is informed about the product the question that comes is how to get this product? This question is simply and effectively answered here using a simple chart like explanation and logos.
 
+- How to order section on large screen.
+
+![How to order on large screen](assets/images/hoetoorderscreenshot.png)
+
+- How to order section on smaller screen.
+
+![How to order section on smaller screen.](assets/images/placingordersmallscreen.png)
+
 ## 3.GALLERY
 
-This section showcases images of the works done before. It helps new customers refer the images and to get new ideas from them.
+This section showcases images of the works done before. It helps new customers refer the images and to get new ideas from them. It changes accordingly with the screen sizes as shown below:
+
+- In larger screen it shows four images in a row.
+  ![gallery on large screen with five images](assets/images/galleryfullscreen.png)
+
+- Medium screen shows three images.
+  ![gallery on medium screens with three images](assets/images/gallermediumscreen.png)
+
+- Only two columns are displayed in smaller screen.
+
+  ![gallery on smaller screens with two columns](assets/images/gallerysmallscreen.png)
 
 ## 4.CONTACT
 
 The last and most important page in this website. It has two section.
 
-### FORM
+### i) FORM
 
 After going through this website pages,if the customer has any questions they can ask their question using the form provided in this section.Equally important is the giving reviews and suggestions for the progress of this business which can also be done through this section. It also has an image to make it look beautiful which is displayed only on larger screens.
 
-### CONTACT
+- Contact form on large screens
+  ![Contact page on larger screens with a form and image](assets/images/contactlargescreen.png)
+
+- Contact form on small screens without image and smaller button on the form.
+
+  ![Contact page on small screens without the image](assets/images/contactsmallscreen.png)
+
+### ii) CONTACT
 
 In this section the contact informations like location,phone numbers,email address and social media links are provided.
+It remains the same on all screen sizes.
+![contact section with social media links ,address and phone number.](assets/images/contact2largescreen.png)
 
 ## Testing
 
 ---
 
-This project has been tested throughly using the dev tools during the development process and has behaved accordingly in all required screen sizes. After completion it has benn tested in lighthouse and has a good score for accessebilty, performance,SEO and Best practices.
+This project has been tested throughly using the dev tools during the development process and has behaved accordingly in all required screen sizes. After completion it has benn tested in lighthouse and has a good score for accessibilty, performance,SEO and Best practices.
+![lighthouse validation result with good scores](assets/images/lighthouse.png)
+
 This project begins with images of cakes which changes as per the screen sizes. In larger screens five images will be displayed while three and one image will be diasplayed on medium and smaller screens respectively.
 Another feature in this website is the footer which appears only om the larger screens. It should not appear on the smaller and medium screens but it has not been solved completely because of my restricted knowledge in the this area.
 
