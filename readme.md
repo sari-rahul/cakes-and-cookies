@@ -1,7 +1,20 @@
 # CAKES & COOKIES
 
 Cakes & Cookies is a Baking business located in Halstatt,Austria,concentrating on wedding cakes,themed cakes and much more.This website is aimed at giving more information about their products and services to the public and thereby increasing the number of clients.
-![Responsive image of the site](assets/images/am i responsive.png)
+![am i responsive image](assets/images/amiresponsive.png)
+
+## Demo
+
+---
+
+A live demo of the site can be found [here.](https://sari-rahul.github.io/cakes-and-cookies/)
+
+## Languages Used
+
+---
+
+- HTML
+- CSS
 
 ## Features
 
