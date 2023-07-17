@@ -29,7 +29,7 @@ The first page or the landing page with all the necessary information related to
 ### i) LOGO AND NAVIGATION BAR
 
 The website begins with the logo of the firm aligned centrally followed by the navigation bar.The navigation bar has four elements -Home,Services,Gallery and Contact. Each element helps the user to navigate through the pages and get information.The logo brings the user back to the home page while navigating through any other page,when clicked.
-The structure and pattern of the navigation bar and loga remains the same throughout the website pages.
+The structure and pattern of the navigation bar and logo remains the same throughout the website pages.
 
 ![logo and navigation bar](assets/images/logoandnavigationscreenshot.png)
 
@@ -49,11 +49,11 @@ This is a small section welcoming the client to the website and quoting the mott
 
 ### iv) OFFER OF THE MONTH
 
-This section describes the current offer provided by the bakers. It will be updated once ina month to the current offer. It include the image and details of the cake currently in offer.The portion size,flavour,decorations used and the lead time will be displayed here.
+This section describes the current offer provided by the bakers. It will be updated once in a month to the current offer. It includes the image and details of the cake currently in offer.The portion size,flavour,decorations used and the lead time will be displayed here.
 
 ![offer of the month with image if cake and details on the side](assets/images/offerofthemonthscreenshot.png)
 
-This section is displayed in one above th eothe pattern in smaller screens as shown below:
+This section is displayed in one above the other pattern in smaller screens as shown below:
 
 ![The offer of the month section with the image section above the details section](assets/images/offerofthemonthsmallscreen.png)
 
