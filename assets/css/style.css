@@ -411,12 +411,12 @@ header a {
 
 /*footer*/
 footer {
-    width: 100%;
+    width: 90%;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
     color: rgb(71, 69, 69);
-    padding: 30px;
+    padding-top: 30px;
     background-color: rgb(230, 224, 224);
 
 }
@@ -466,7 +466,7 @@ footer {
     width: 80%;
     height: 50%;
     position: absolute;
-    left: 10%;
+    left: 5%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
@@ -477,7 +477,7 @@ footer {
     height: 50%;
     position: absolute;
     bottom: 0%;
-    left: 10%;
+    left: 5%;
     display: flex;
     justify-content: space-evenly;
 
@@ -518,39 +518,41 @@ footer {
 }
 
 .foto {
-    width: 40%;
-    height: 80%;
+    width: 50%;
+    height: 100%;
 }
 
 #part1 .leftside .foto {
     background-image: url(../images/semi-naked-cake.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 10px 20px;
 }
 
 #part1 .rightside .foto {
-    background-image: url(../images/simple-cream-cake.webp);
-    background-size: contain;
+    background-image: url(../images/creamcake.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 10px 20px;
 }
 
 #part2 .leftside .foto {
-    background-image: url(../images/structural-cake2.jpg);
-    background-size: contain;
+    background-image: url(../images/fondantcake.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 10px 20px;
 }
 
 #part2 .rightside .foto {
-    background-image: url(../images/fondant-cake.jpg);
-    background-size: contain;
+    background-image: url(../images/structural-cake2.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 10px 20px;
+
 }
 
 /* section for cupcakes and others prices*/
@@ -863,48 +865,8 @@ p {
         padding-top: 30px;
     }
 
-    /*footer*/
-    footer {
-        height: 0%;
-        width: 0%;
-        color: white;
-        background-color: white;
-    }
 
-    /*footer*/
-    footer {
-        width: 0px;
-        height: 0px;
-        padding: 0px;
-    }
 
-    .contactdetails {
-        border-right: 0px;
-        padding-right: 0px;
-
-    }
-
-    .contactdetails h3 {
-        padding-bottom: 0px;
-    }
-
-    .contactdetails p {
-        padding-bottom: 0px;
-    }
-
-    .contactdetails input {
-        border: 0px;
-        width: 0px;
-        padding: 0px;
-        margin-top: 0px;
-    }
-
-    .contactdetails button {
-        border: 0px;
-        width: 0px;
-        padding: 0px;
-        margin-top: 0px;
-    }
 
     /*monthly offer section*/
 
@@ -926,20 +888,20 @@ p {
         height: 100%;
         width: 80%;
         position: absolute;
-        top: 5%;
+        top: 20%;
         left: 10%;
         text-align: left;
     }
 
     #current-offer h1 {
         padding-top: 15px;
-        font-size: 150%;
+        font-size: 160%;
 
     }
 
     #current-offer li {
         padding-top: 15px;
-        font-size: 100%;
+        font-size: 130%;
         margin-left: 7px;
     }
 
@@ -1110,15 +1072,38 @@ p {
 
     /*footer*/
     footer {
-        width: 0px;
-        height: 0px;
-        padding: 0px;
+        height: 350px;
+        width: 90%;
+        color: inherit;
+        background-color: white;
+        display: block;
+        font-size: 100%;
+    }
+
+    .contactdetails {
+        height: 33%;
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-right: 0px;
+    }
+
+    .contactdetails h3 {
+        padding-bottom: 10px;
+    }
+
+    .contactdetails p {
+        padding-bottom: 10px;
+        text-align: left;
     }
 
     .contactdetails input {
-        width: 0px;
-        height: 0px;
+        border: 1px solid black;
+        width: 60%;
+        padding: 2%;
+        margin-top: 1%;
     }
+
 
 
     /*services page pricelist*/
@@ -1147,7 +1132,7 @@ p {
         width: 100%;
         height: 50%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .rightside {
@@ -1367,9 +1352,10 @@ p {
 
     #address {
         width: 100%;
-        height: 300px;
+        height: 400px;
         padding-top: 20px;
         text-align: center;
+        background-color: rgb(210, 209, 209);
     }
 
     #address h1 {
@@ -1687,29 +1673,26 @@ p {
         font-size: 400%;
     }
 
-    /*footer*/
-    footer {
-        width: 0%;
-        height: 0%;
-    }
+    footer {}
 
 
     /*services page pricelist*/
 
     #pricelist {
         height: 1500px;
-        margin-top: 30px;
+        margin-top: 10%;
     }
 
     #part1 {
         width: 100%;
-        height: 50%;
+        height: 40%;
         left: 1%;
         display: block;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     #part2 {
+        margin-top: 10%;
         width: 100%;
         height: 50%;
         left: 1%;
@@ -1747,8 +1730,8 @@ p {
     }
 
     .foto {
-        width: 40%;
-        height: 50%;
+        width: 20%;
+        height: 70%;
     }
 
     /* section for cupcakes and others prices*/
@@ -1763,8 +1746,6 @@ p {
         top: 2%;
         left: 5%;
         display: block;
-
-
     }
 
     .picture {
@@ -1936,7 +1917,7 @@ p {
 
     #address {
         width: 100%;
-        height: 300px;
+        height: 400px;
         padding-top: 20px;
         text-align: center;
     }
@@ -2193,11 +2174,11 @@ p {
     /*footer*/
     footer {
         width: 100%;
-        height: 120px;
+        height: 130px;
         display: flex;
         justify-content: space-evenly;
         color: rgb(71, 69, 69);
-        padding: 30px;
+        padding-top: 30px;
         background-color: rgb(230, 224, 224);
 
     }
@@ -2241,6 +2222,7 @@ p {
 
     #pricelist {
         height: 1000px;
+        margin-top: 30px;
     }
 
     #part1 {
@@ -2256,6 +2238,7 @@ p {
         height: 50%;
         left: 10%;
         display: flex;
+        margin-top: 10%;
     }
 
     .leftside {
@@ -2291,7 +2274,7 @@ p {
     .foto {
         margin-top: 10%;
         width: 50%;
-        height: 80%;
+        height: 90%;
     }
 
     /* section for cupcakes and others prices*/
@@ -2301,6 +2284,7 @@ p {
         width: 100%;
         height: 500px;
         background-color: rgb(234, 233, 233);
+        padding-top: 10px;
     }
 
     #outercontainer {
