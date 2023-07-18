@@ -211,4 +211,4 @@ The credits of this projects are:
 
 ### MEDIA
 
-- The images used inthis project are from [Pexels](https://www.pexels.com/de-de/),[Cakes Berlin](https://cakesberlin.com/) and [Cake Styling](https://www.cakestyling.de/).
+- The images used inthis project are from [Pexels](https://www.pexels.com/de-de/),[Cakes Berlin](https://cakesberlin.com/) and [Cake Styling](https://www.cakestyling.de/)
