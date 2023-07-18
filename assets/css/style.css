@@ -73,13 +73,13 @@ header a {
 
 #menu li:hover {
     font-size: 120%;
-    color: #a675c9;
+    color: #8A496B;
 }
 
 #menu li .active {
     font-size: 130%;
     font-family: calistoga, sans-serif;
-    color: #a675c9;
+    color: #8A496B;
 }
 
 #banner-container {
