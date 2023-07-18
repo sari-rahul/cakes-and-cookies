@@ -61,7 +61,7 @@ This section is displayed in one above the other pattern in smaller screens as s
 
 Here the entire products and services provided are shown. It includes images and names of the types of the cakes that can be ordered. It aims at imforming the clients about the services offered.
 
-![Different things offered by these bakers like birthday cake ,cake for communion etc are shown](assets/images/offersectionscreenshot.png)
+![Different things offered by these bakers like birthday cake ,cake for communion etc are shown](assets/images/whatweoffer.png)
 
 This same section is shown in different pattern in smaller screens. Each section is arranged one above the other to accomodate inthe smaller width.
 
