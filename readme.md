@@ -210,19 +210,38 @@ No errors have been found while pasing through official [Jigsaw validator.](http
 
 ---
 
-| Feature              | Expected Outcome                                               | Testing Performed | Result                           | Pass/Fail |
-| -------------------- | -------------------------------------------------------------- | ----------------- | -------------------------------- | --------- |
-| `Navbar`             |
-|                      |                                                                |                   |                                  |           |
-| Cakes & Cookies Logo | When clicked the user will be redirected to the home page.     | Clicked Logo      | Redirected to the home page.     | Pass      |
-| Home Page Link       | When clicked the user will be redirected to the home page.     | Clicked link      | Redirected to the home page.     | Pass      |
-| Services Page Link   | When clicked the user will be redirected to the services page. | Clicked link      | Redirected to the services page. | Pass      |
-| Gallery Page Link    | When clicked the user will be redirected to the gallery page.  | Clicked link      | Redirected to the gallery page.  | Pass      |
-| Contact Page Link    | When clicked the user will be redirected to the contact page.  | Clicked link      | Redirected to the contact page.  | Pass      |
-| `Contact`            |
-|                      |                                                                |                   |                                  |           |
-| Facebook Logo        | When clicked the user will be redirected to the facebook page. | Clicked link      | Redirected to the facebook page. | Pass      |
-| Instagram Logo       | When clicked the user will be redirected to the Instagram.     | Clicked link      | Redirected to the Instagram.     | Pass      |
+| Feature               | Expected Outcome                                                                                                             | Testing Performed    | Result                           | Pass/Fail |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------------------- | --------- |
+| `Navbar`              |
+|                       |                                                                                                                              |                      |                                  |           |
+| Cakes & Cookies Logo  | When clicked the user will be redirected to the home page.                                                                   | Clicked Logo         | Redirected to the home page.     | Pass      |
+| Home Page Link        | When clicked the user will be redirected to the home page.                                                                   | Clicked link         | Redirected to the home page.     | Pass      |
+| Services Page Link    | When clicked the user will be redirected to the services page.                                                               | Clicked link         | Redirected to the services page. | Pass      |
+| Gallery Page Link     | When clicked the user will be redirected to the gallery page.                                                                | Clicked link         | Redirected to the gallery page.  | Pass      |
+| Contact Page Link     | When clicked the user will be redirected to the contact page.                                                                | Clicked link         | Redirected to the contact page.  | Pass      |
+| `Cover Page`          |
+|                       |                                                                                                                              |                      |                                  |           |
+| Cover images          | must show one,three and five images respectively in small medium and large screens                                           | Changed screen sizes | Number of images changed         | Pass      |
+| Offer of the month    | must be displayed in single row and rows respectively in small and large screens                                             | Changed screen sizes | Number of rows changed           | Pass      |
+| What we offer section | must be displayed in one row and six rows respectively in small and large screens                                            | Changed screen sizes | Number of rows changed           | Pass      |
+| Review section        | must be displayed as a single row in small screens and four rows in larger screens                                           | Changed screen sizes | Number of rows changed           | Pass      |
+| `Footer`              |
+|                       |                                                                                                                              |                      |                                  |           |
+| Column Changes        | must be shown in three rows and a single row respectively in small and large screens                                         | Changed screen sizes | Number of rows changed           | Pass      |
+| `Services`            |
+|                       |                                                                                                                              |                      |                                  |           |
+| Pricelist             | must be displayed in four rows with two coumns each on small screens and in two rows with two columns each on larger screens | Changed screen sizes | Number of columns changed        | Pass      |
+| Others section        | must show single row on large screens and five rows on smaller screens.                                                      | Changed screen sizes | Number of columns changed        | Pass      |
+| Flavour               | must show single row on large screens and five rows on smaller screens.                                                      | Changed screen sizes | Number of columns changed        | Pass      |
+| How to order          | must show single row on large screens and five rows on smaller screens.                                                      | Changed screen sizes | Number of columns changed        | Pass      |
+| `Gallery`             |
+|                       |                                                                                                                              |                      |                                  |           |
+| Column Changes        | must show two,three and four columns respectively in small a medium and large screens                                        | Changed screen sizes | Number of columns changed        | Pass      |
+| `Contact`             |
+|                       |                                                                                                                              |                      |                                  |           |
+| Image                 | Should not be displayed on small and medium screens.                                                                         | changed screen sizes | Image disappered                 | Pass      |
+| Facebook Logo         | When clicked the user will be redirected to the facebook page.                                                               | Clicked link         | Redirected to the facebook page. | Pass      |
+| Instagram Logo        | When clicked the user will be redirected to the Instagram.                                                                   | Clicked link         | Redirected to the Instagram.     | Pass      |
 
 ## DEPLOYMENT
 

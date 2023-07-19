@@ -2060,6 +2060,7 @@ p {
         padding-top: 30px;
         font-size: 160%;
         margin-left: 160px;
+        text-align: left;
     }
 
     #current-offer .para {
