@@ -11,6 +11,7 @@ body {
     font-family: frank ruhl libre, sans-serif;
     font-weight: 300;
     color: rgb(53, 52, 52);
+    width: 100%;
 }
 
 /*heading style*/
@@ -417,7 +418,7 @@ header a {
 
 /*footer*/
 footer {
-    width: 90%;
+    width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -429,9 +430,7 @@ footer {
 
 .contactdetails {
     border-right: 1px solid black;
-    padding-right: 30px;
-    padding-left: 30px;
-
+    padding-left: 0px;
 }
 
 .contactdetails h3 {
@@ -721,7 +720,7 @@ p {
 
 /*contact page*/
 #contact {
-    width: 100%;
+    width: 100vw;
     height: 1000px;
     background-color: rgb(234, 233, 233);
     display: flex;
@@ -729,10 +728,9 @@ p {
 }
 
 #leftportion {
-    width: 40%;
+    width: 50%;
     height: 90%;
     text-align: left;
-    margin-left: 100px;
     margin-top: 50px;
 
 }
@@ -740,6 +738,7 @@ p {
 #leftportion p {
     text-align: left;
     padding-top: 30px;
+    margin-left: 0px;
 }
 
 #leftportion label {
@@ -756,6 +755,11 @@ p {
     border: 1px solid rgb(51, 49, 49);
 }
 
+#leftportion form {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
 #leftportion button {
     background-color: black;
     width: 50%;
@@ -766,7 +770,7 @@ p {
 }
 
 #rightportion {
-    width: 60%;
+    width: 50%;
     height: 100%;
     background-image: url(../images/gallery7.webp);
     background-size: cover;
@@ -804,7 +808,7 @@ p {
 
     #menu,
     #logo {
-        line-height: 25px;
+        line-height: 30px;
 
     }
 
@@ -885,6 +889,7 @@ p {
     #right-side {
         width: 100%;
         height: 50%;
+        text-align: center;
     }
 
     #current-offer {
@@ -892,26 +897,27 @@ p {
         width: 100%;
         position: absolute;
         top: 20%;
-        left: 10%;
-        text-align: left;
+        left: 0%;
+        text-align: center;
     }
 
     #current-offer h1 {
         padding-top: 15px;
-        font-size: 160%;
+        font-size: 170%;
 
     }
 
     #current-offer li {
         padding-top: 15px;
         font-size: 130%;
-        margin-left: 7px;
+        text-align: center;
+        margin-left: 0px;
     }
 
     #current-offer .para {
         padding-top: 7px;
         margin-left: 15px;
-        text-align: left;
+        text-align: center;
         font-size: 90%;
     }
 
@@ -944,7 +950,7 @@ p {
         width: 100%;
         height: 30%;
         top: 15%;
-        left: 4%;
+        left: 0%;
     }
 
     #whatweoffer h2 {
@@ -956,6 +962,7 @@ p {
         line-height: 30px;
         text-align: left;
         padding-right: 20px;
+        text-align: center;
     }
 
     #baptism-cake {
@@ -963,7 +970,7 @@ p {
         height: 45%;
         background-size: contain;
         bottom: 5%;
-        left: 5%;
+        left: 0%;
     }
 
     #bapcake-name {
@@ -983,7 +990,7 @@ p {
         height: 40%;
         background-size: contain;
         top: 10%;
-        left: 3%;
+        left: 0%;
 
     }
 
@@ -1005,7 +1012,6 @@ p {
     #candy-table-name {
         font-size: 120%;
         bottom: 5%;
-        left: 30%;
     }
 
     /*right section*/
@@ -1018,7 +1024,7 @@ p {
         width: 100%;
         height: 40%;
         top: 3%;
-        left: 2%;
+        left: 0%;
         background-size: contain;
     }
 
@@ -1081,13 +1087,13 @@ p {
         background-color: rgb(234, 229, 229);
         display: block;
         font-size: 100%;
+        text-align: center;
     }
 
     .contactdetails {
         height: 33%;
         width: 100%;
-        padding-right: 30px;
-        padding-left: 10px;
+        padding-left: 0px;
         border-right: 0px;
     }
 
@@ -1097,7 +1103,7 @@ p {
 
     .contactdetails p {
         padding-bottom: 10px;
-        text-align: left;
+        text-align: center;
     }
 
     .contactdetails input {
@@ -1119,7 +1125,7 @@ p {
     #part1 {
         width: 100%;
         height: 50%;
-        left: 1%;
+        left: 0px;
         display: block;
         margin-top: 20%;
     }
@@ -1127,26 +1133,31 @@ p {
     #part2 {
         width: 100%;
         height: 50%;
-        left: 1%;
+        left: 0px;
         display: block;
+    }
+
+    #part2 .leftside {
+        padding-top: 50px;
     }
 
     .leftside {
         width: 100%;
         height: 50%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .rightside {
         width: 100%;
         height: 50%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .pricedetails {
-        margin-left: 1%;
+        margin-left: 0px;
+        margin-right: 0px;
         padding-top: 10px;
         width: 50%;
         height: 80%;
@@ -1162,7 +1173,7 @@ p {
     }
 
     .foto {
-        width: 40%;
+        width: 31%;
         height: 50%;
     }
 
@@ -1256,6 +1267,7 @@ p {
         height: 800px;
         background-color: rgb(234, 233, 233);
         position: relative;
+        text-align: center;
     }
 
     #placingorder h1 {
@@ -1267,16 +1279,17 @@ p {
         width: 100%;
         height: 100%;
         position: absolute;
-        left: 10%;
+        left: 0%;
         top: 10%;
         display: block;
+        text-align: center;
     }
 
     .order {
-        width: 80%;
+        width: 98%;
         height: 20%;
         text-align: center;
-        border: 0;
+        border: 0px;
         padding: 1%;
     }
 
@@ -1291,6 +1304,7 @@ p {
         line-height: 0px;
         column-count: 2;
         column-gap: 0px;
+        margin: 0px;
     }
 
     #gallery>img {
@@ -1299,7 +1313,7 @@ p {
 
     /*contact page*/
     #contact {
-        width: 100%;
+        width: 100vw;
         height: 550px;
         background-color: rgb(234, 233, 233);
         display: block;
@@ -1309,14 +1323,12 @@ p {
         width: 100%;
         height: 50%;
         text-align: left;
-        margin-left: 4%;
         margin-top: 10%;
-
     }
 
     #leftportion h1 {
         padding-top: 5%;
-        padding-left: 1%;
+        padding-left: 0px;
     }
 
     #leftportion p {
@@ -1504,14 +1516,14 @@ p {
         width: 80%;
         position: absolute;
         top: 10%;
-        left: 20%;
+        left: 10%;
         text-align: left;
     }
 
-    #current-offer h1 {
+    #current-offer h2 {
         padding-top: 15px;
-        font-size: 150%;
-
+        font-size: 40px;
+        text-align: center;
     }
 
     #current-offer li {
@@ -1566,7 +1578,7 @@ p {
 
     #whatweoffer p {
         line-height: 30px;
-        text-align: left;
+        text-align: center;
     }
 
     #baptism-cake {
@@ -1594,7 +1606,7 @@ p {
         height: 40%;
         background-size: contain;
         top: 10%;
-        left: 3%;
+        left: 0%;
 
     }
 
@@ -1629,7 +1641,7 @@ p {
         width: 100%;
         height: 40%;
         top: 3%;
-        left: 2%;
+        left: 0%;
         background-size: contain;
     }
 
@@ -1691,8 +1703,6 @@ p {
     .contactdetails {
         height: 33%;
         width: 100%;
-        padding-right: 30px;
-        padding-left: 10px;
         border-right: 0px;
     }
 
@@ -1702,7 +1712,6 @@ p {
 
     .contactdetails p {
         padding-bottom: 10px;
-        text-align: left;
     }
 
     .contactdetails input {
@@ -1722,7 +1731,7 @@ p {
     #part1 {
         width: 100%;
         height: 40%;
-        left: 1%;
+        left: 0px;
         display: block;
         margin-top: 10%;
     }
@@ -1731,7 +1740,7 @@ p {
         margin-top: 10%;
         width: 100%;
         height: 50%;
-        left: 1%;
+        left: 0px;
         display: block;
     }
 
@@ -1750,7 +1759,7 @@ p {
     }
 
     .pricedetails {
-        margin-left: 1%;
+        margin-left: 0px;
         padding-top: 10px;
         width: 50%;
         height: 80%;
@@ -1865,17 +1874,19 @@ p {
         width: 100%;
         height: 100%;
         position: absolute;
-        left: 10%;
+        left: 0%;
         top: 10%;
         display: block;
+        text-align: center;
     }
 
     .order {
-        width: 80%;
+        width: 100%;
         height: 20%;
         text-align: center;
         border: 0;
-        padding: 1%;
+        padding: 0px;
+        margin-right: 0px;
     }
 
     .order h3 {
@@ -1907,20 +1918,20 @@ p {
         width: 100%;
         height: 50%;
         text-align: left;
-        margin-left: 4%;
         margin-top: 10px;
+        margin-left: 0px;
 
     }
 
     #leftportion h1 {
         padding-top: 5%;
-        padding-left: 1%;
+
     }
 
     #leftportion p {
         text-align: left;
         padding-top: 2%;
-        padding-left: 1%;
+
     }
 
     #leftportion label {
@@ -1949,7 +1960,7 @@ p {
     }
 
     #rightportion {
-        width: 0;
+        width: 0px;
     }
 
     #address {
@@ -2231,6 +2242,7 @@ p {
 
     .contactdetails h3 {
         padding-bottom: 10px;
+        text-align: left;
     }
 
     .contactdetails p {
@@ -2277,6 +2289,10 @@ p {
         left: 10%;
         display: flex;
         margin-top: 10%;
+    }
+
+    #part2 .leftside {
+        padding-top: 0px;
     }
 
     .leftside {
