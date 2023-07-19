@@ -63,13 +63,13 @@ Here the entire products and services provided are shown. It includes images and
 
 ![Different things offered by these bakers like birthday cake ,cake for communion etc are shown](assets/images/whatweoffer.png)
 
-This same section is shown in different pattern in smaller screens. Each section is arranged one above the other to accomodate inthe smaller width.
+This same section is shown in different pattern in smaller screens. Each section is arranged one above the other to accomodate in the smaller width.
 
 ![offer section showing cakes for differnt events](assets/images/whatweoffersmallscreen.png)
 
 ### vi) Customer Reviews
 
-For any business customer satisfaction is very important.The credibility of any service increases with genuine reviews from the clients. Hence the reviews are given on the front page itself to increase the confidence of new customers. It can be updated and review as the time goes.
+For any business customer satisfaction is very important.The credibility of any service increases with genuine reviews from the customers. Hence the reviews are given on the front page itself to increase the confidence of new customers. It can be updated and reviwed.
 
 - It is displayed in aline in larger screen as shown below.
 
@@ -92,11 +92,11 @@ This is the second page in this website. It has three main sections.
 
 ### i) Price List
 
-Here the prices of different cakes as per their sizes and portions are detailed. It also includes the images respectively with the discription. It also has a section which includes price details of other services they provide like cupcakes,cakesicles along with their images.
+Here, the prices of different cakes as per their sizes and portions are detailed. It also includes the images respectively with the discription. It also has a section which includes price details of other services they provide like cupcakes,cakesicles along with their images.
 
 - Pricelist on large screen is seen as below with two column in each row:
   ![Pricelist showing different types of cakes with their sizes and pattern with two colum in each row](assets/images/servicepage.png)
-- second part of pricelist is displayed in single line with the cost and number displayed below each object:
+- second part of pricelist is displayed in single line with the cost and numbers displayed below each object:
   ![Pricelist showing other things offered by the bakers with their numbers in a line.](assets/images/servicesscreenshot2.png)
 
   - In smaller screen the pricelist is shown as single column in each row one below the other.
@@ -132,7 +132,7 @@ This section showcases images of the works done before. It helps new customers r
 - In larger screen it shows four images in a row.
   ![gallery on large screen with five images](assets/images/galleryfullscreen.png)
 
-- Medium screen shows three images.
+- Medium screen shows three images in a row.
 
   ![gallery on medium screens with three images](assets/images/gallermediumscreen.png)
 
@@ -146,7 +146,7 @@ The last and most important page in this website. It has two section.
 
 ### i) Form
 
-After going through this website pages,if the customer has any questions they can ask their question using the form provided in this section.Equally important is the giving reviews and suggestions for the progress of this business which can also be done through this section. It also has an image to make it look beautiful which is displayed only on larger screens.
+After going through these website pages,if the customer has any questions they can ask their question using the form provided in this section.Equally important is the giving reviews and suggestions for the progress of this business which can also be done through this section. It also has an image to make it look beautiful which is displayed only on larger screens.
 
 - Contact form on large screens
   ![Contact page on larger screens with a form and image](assets/images/contactlargescreen.png)
