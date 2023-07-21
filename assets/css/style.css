@@ -1322,7 +1322,7 @@ p {
     #leftportion {
         width: 100%;
         height: 50%;
-        text-align: left;
+        text-align: center;
         margin-top: 10%;
     }
 
@@ -1332,7 +1332,7 @@ p {
     }
 
     #leftportion p {
-        text-align: left;
+        text-align: center;
         padding-top: 2%;
         padding-left: 1%;
     }
